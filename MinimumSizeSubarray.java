@@ -14,7 +14,7 @@ class MinimumSizeSubarray{
             i++;
            }
         }
-       if( min_length==Integer.MIN_VALUE)
+       if( min_length==Integer.MAX_VALUE)
       System.out.println(0);
       else
        System.out.println(min_length);
